@@ -30,7 +30,7 @@ h3 {
 
 .link-menu {
     color: #707070;
-    text-decoration:none;
+    text-decoration: none;
 
 }
 
@@ -42,7 +42,27 @@ a:hover {
 
 #principal {
     margin-top: 3.125em;
-    min-height: 28.125em;
+
+   
+}
+
+.espacio {
+    min-height: calc(100vh - 46875em);
+}
+
+
+/*ESTILOS DE Producto*/
+
+#producto{
+    background: -webkit-linear-gradient(90deg, #6984ea 10%, #6acbe0 90%);
+    background: -moz-linear-gradient(90deg,#6984ea 10%, #6acbe0 90%);
+    background: linear-gradient( 90deg, #6984ea 10%, #6acbe0 90%);
+    color: cornsilk;
+}
+
+.espacio-row{
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 /*ESTILOS DE PIE*/
